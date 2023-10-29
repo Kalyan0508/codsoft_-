@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="bigBox">
+            <div class="resultBox">0</div>
+            <div class="operationBox">
+                <div class="calButton">
+                    <div class="buttons" onclick="appendNumber('7')">7</div>
+                    <div class="buttons" onclick="appendNumber('8')">8</div>
+                    <div class="buttons" onclick="appendNumber('9')">9</div>
+                    <div class="buttons" onclick="deleteLast()">DEL</div>
+                </div>
+                <div class="calButton">
+                    <div class="buttons" onclick="appendNumber('4')">4</div>
+                    <div class="buttons" onclick="appendNumber('5')">5</div>
+                    <div class="buttons" onclick="appendNumber('6')">6</div>
+                    <div class="buttons" onclick="setOperation('+')">+</div>
+                </div>
+                <div class="calButton">
+                    <div class="buttons" onclick="appendNumber('1')">1</div>
+                    <div class="buttons" onclick="appendNumber('2')">2</div>
+                    <div class="buttons" onclick="appendNumber('3')">3</div>
+                    <div class="buttons" onclick="setOperation('-')">-</div>
+                </div>
+                <div class="calButton">
+                    <div class="buttons" onclick="appendNumber('.')">.</div>
+                    <div class="buttons" onclick="appendNumber('0')">0</div>
+                    <div class="buttons" onclick="setOperation('/')">/</div>
+                    <div class="buttons" onclick="setOperation('*')">x</div>
+                </div>
+                <div class="calButton">
+                    <div class="buttons" onclick="reset()">RESET</div>
+                    <div class="buttons" onclick="calculate()">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

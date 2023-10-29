@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bigBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 1rem;
+}
+.resultBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+}
+.calButton {
+    display: flex;
+}
+.buttons {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 40px;
+    border-radius: 1rem;
+    height: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
